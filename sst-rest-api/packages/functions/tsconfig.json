@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "puppeteer"],
+    "baseUrl": ".",
+    "paths": {
+      "@2nd/core/*": ["../core/src/*"]
+    }
+  }
+}
